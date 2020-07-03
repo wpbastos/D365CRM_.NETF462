@@ -9,6 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCustomWorkflows", "MyCust
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{36A553DB-10AE-4F70-9F00-ADB9A0FA7C33}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientScripts", "ClientScripts", "{20075091-3626-4E30-B29B-AC083BDF029D}"
+	ProjectSection(SolutionItems) = preProject
+		AccountScripts.js = AccountScripts.js
+		ContactScripts.js = ContactScripts.js
+		GlobalHelper.js = GlobalHelper.js
+		GoogleMap.html = GoogleMap.html
+		MyHtml.html = MyHtml.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
